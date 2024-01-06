@@ -22,8 +22,8 @@ void printarr(int A[],int n){
 
 
 int main(){
-    int arr[]={4,7,1,5,2,3,9,8,6,10};
-    int n=10;
+    int arr[]={4,7,1,5,2,3,9,8,6};
+    int n=9;
     printarr(arr,n);
     bubblesort(arr,n);
     printarr(arr,n);
